@@ -11,9 +11,9 @@ export default function WalletInfo({address, amount}: IProps) {
     return (
         <Button variant={"outline"} ml ="10px">
             <HStack>
-                <text>{showSortAddress(address)}</text>
+                <Text>{showSortAddress(address)}</Text>
                 <Image src='/eth.png' w="25px" alt="eth" ml="20px" />
-                <text>{numberFormat(amount)}</text>
+                <Text>{numberFormat(amount)}</Text>
             </HStack>
 
         </Button>

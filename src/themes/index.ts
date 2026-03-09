@@ -37,7 +37,7 @@ export const buttonRecipe = defineRecipe({
 export const config = defineConfig({
 globalCss: {
     "html, body": {
-      backgroundColor: "#121212", // màu nền dark mặc định
+      backgroundColor: "#242424", // màu nền dark mặc định
       color: "#fff",              // chữ trắng
     },
   },

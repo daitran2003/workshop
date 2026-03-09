@@ -81,7 +81,7 @@ export default function InvestCard({
     //  disabled
       variant="ghost"
       my="10px"
-      bg="#121212"
+      bg="#3A3A3A"
       border="1px solid #fff"
       color="rgba(255,255,255,0.7)"
   >
